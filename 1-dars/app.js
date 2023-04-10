@@ -36,3 +36,19 @@
 // Object - array, function, object
 
 // type of - ma'lumot turini aniqlaydi
+
+// Boolean
+// true = !null !0 !underfined umumman noldan farqli hamma narsa
+// false = qiymat jihatdan 0 ga teng
+
+console.log(true == 1);    // true
+console.log(false == 0);    // true
+console.log(false == null);   // true
+console.log(false == null);    //false
+console.log(false == undefined);    //false
+console.log(null == undefined);   //true
+
+let a = 1;
+console.log(a++); // 1 bu yerda oldin a ning qiymatini chiqaradi, keyin 1 ni qo'shadi
+console.log(a); // 2
+console.log(++a); // 3 bu yerda oldin 1 ni qo'shadi, keyin konsolga chiqaradi
