@@ -31,6 +31,8 @@ const nameSurname = function (name, surname = ""){
 
 nameSurname("Mirzo Ulug'bek", "Xudoyberdiyev");
 
+// Function ga value biriktirish uchun unga return yozish kerak
+
 // =======================
 // Function declaration
 
@@ -53,3 +55,11 @@ const sayHi = function {
 }
 
 sayHi();
+
+
+
+// =======================
+// Arrow function
+const saySomething = () => {
+  console.log("Hello my mom !");
+}
