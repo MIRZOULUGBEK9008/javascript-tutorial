@@ -19,9 +19,11 @@ do {
 
 // dynamic deb biita function yozib hamma holatlarga mos tushib ketishiga aytiladi
 
-// Housting deb barcha variable va function expression larni eng yuqorida declare qilishga aytil adi
+// Housting deb barcha variable va function expression larni eng yuqorida declare qilishga aytiladi
 
 // Variable shadow bu bir xil nom bilan ikki xil variable biriktirishga aytiladi. Dastlab function ichidan qidiradi keyin tashqaridan
+
+// function o'zini o'zi chaqirsa loop ga tushib qoladi va bu holat recursy function deb ataladi..
 
 // default parameter, agar biz qiymat bersek o'sha qiymatni oladi, agar bermasak default ni oladi.
 // ES6
