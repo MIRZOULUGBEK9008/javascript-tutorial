@@ -29,7 +29,7 @@ for(;;) // without limits
 
 for(i = 1; i <= 100; i++) {
   console.log(i); // 99
-  if( i === 56) break; // break kodni to'xtatadi xuddi switchdagi break kabi, continieu davom ettiradi
+  if( i === 56) break; // break kodni mutloq to'xtatadi, continue ham to'xtatadi faqat shart bajarilgandan keyin davom etadi
 }
 
 // Savol: Quyida berilgan kodda konsolda nima chiqadi ?
