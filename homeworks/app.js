@@ -24,4 +24,8 @@ schedule["8:30"] = "get up";
 alert(isEmpty(schedule)); // false
 
 // 3
+// Istalgan sonni 2 link sanoq sitemasiga o'tkazib, nechta 0 vanechta bir qatnashganini aniqlang
 
+// Berilgan sonlar ichida eng katta va eng kichik sonlar ayirmasini toping. Musbat son chiqmasin
+
+// 1-50 gacha bo'lgan sonlardan random aniqlab oladigan function yozish
