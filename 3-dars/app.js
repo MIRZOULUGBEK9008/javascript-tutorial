@@ -1,7 +1,7 @@
 // if else
 // if else da () ning ichida 2 ta qiymat bor true yoki false. Kod true bo'lganda ishlaydi.
 // if else da
-// 0, null, undefined = false
+// 0, null, undefined, false = false
 
 // ES6 dan boshlab shunaqa bo'ladi ya'ni if else da agar kodimiz bir qatorga sig'sa biz {} curly braces ni qo'ymasa ham bo'ladi bu faqat kodni soddalashtirish uchungina holos.
 

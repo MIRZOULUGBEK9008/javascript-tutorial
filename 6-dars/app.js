@@ -66,7 +66,7 @@ const ac1 = {
 const ac2 = structuredClone(ac1)
 
 
-// Qoida: agar value variable dan qiymat oladigan bo'lsa, va uning nomi key bilan bir xil bo'ladigan bo'lsa buz quyidagi holatda yozishimiz ham mumkin..
+// Qoida: agar value variable dan qiymat oladigan bo'lsa, va uning nomi key bilan bir xil bo'ladigan bo'lsa biz quyidagi holatda yozishimiz ham mumkin..
 // Chunki dasturchilar juda ham dangasa..
 let name = "Mirzo Ulug'bek";
 let id = 0202;

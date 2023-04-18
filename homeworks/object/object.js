@@ -29,15 +29,15 @@
 // id
 
 // Javob: ✅
-// let obj = {
-//   id: 1,
-//   name: "WebBrain"
-// }
+let obj = {
+  id: 1,
+  name: "WebBrain"
+}
 
-// for(i in obj) {
-//   let check = typeof obj[i];
-//   if (check == "number") {console.log(i)};
-// }
+for(i in obj) {
+  let check = typeof obj[i];
+  if (check == "number") {console.log(i)};
+}
 
 
 
@@ -110,6 +110,20 @@
 //   price:"10$"
 // }
 // searchValue(obj,'i') => atirgul,qizil
+
+// Javob: ✅
+for(i in obj) {
+  let check = typeof Object.values(obj);
+  if(check == "string") {
+    console.log(i)
+  }
+}
+
+
+
+
+
+// ===========================
 // No6
 // object ichida objectlar berilgan. ichki objectlarning ichiga age degan key berilgan. barcha ichki keylardagi age lar yigindisini toping
 // let person = {
@@ -130,6 +144,20 @@
 // chiqish
 // 146
 
+// Javob: ✅
+let value = 0;
+while(person) {
+  value += person.age;
+  person = person.child;
+};
+console.log(value);
+
+
+
+
+
+
+// ===========================
 // No7
 // array berilgan array ning ichida objectlar berilgan. object ichida age berilgan. age ni 18dan katta bolgan objectlarni qaytaring
 // let user = {
@@ -152,6 +180,14 @@
 //     ]
 // }
 
+// Javob:
+
+
+
+
+
+
+// ===========================
 // No8
 // array ichida object berilgan. job berilgan objectlarni qaytaring
 // let arr=[
@@ -161,16 +197,43 @@
 //     {id:4,name:'Usmon',job:'developer'},
 //     {id:5,name:'Usmon'}
 // ]
+
+// Javob:
+
+
+
+
+
+// ===========================
 // No9
 // objectdan clone oling birinchi objni o'zgartirsa ikkinchisi malumotlari ozgarmasligi kk
 // let obj={
 // id:1,name:'Usmon',job:'developer'
 // }
 
+// Javob: ✅
+let objClone = structuredClone(obj);
+
+
+
+
+
+// ===========================
 // No10
 // objectga yangi qiymat qo'shuvchi funksiya yozing
 // add(obj,key,value){}
 // add(obj,'address','toshkent')
+
+// Javob:
+function addNewProp(obj, key, value) {
+
+}
+
+
+
+
+
+// ===========================
 // No11
 // agar object ichida practice 1 dan katta bolsa 'qabul qilindi'.aks holda 'ming bor uzur.'
 // let obj = {

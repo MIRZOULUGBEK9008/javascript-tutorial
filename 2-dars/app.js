@@ -37,7 +37,7 @@ console.log(a); // 10
 // && and - ikkalasi qanoatlantirsa true qaytaradi
 
 // Equality
-// = - o'zgaruvchiga quiymay biriktiishda
+// = - o'zgaruvchiga qiymat biriktiishda
 // == - tekshirishda, taqqoslashda //qiymatni o'zini taqqoslaydi
 // === - qat'iy taqqoslashda ya'ni Data type ni ham taqqoslaydi
 

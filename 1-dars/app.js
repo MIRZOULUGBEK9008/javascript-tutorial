@@ -35,7 +35,7 @@
 // Non primitieve
 // Object - array, function, object
 
-// type of - ma'lumot turini aniqlaydi
+// typeof - ma'lumot turini aniqlaydi
 
 // Boolean
 // true = !null !0 !underfined umumman noldan farqli hamma narsa
@@ -44,7 +44,6 @@
 console.log(true == 1);    // true
 console.log(false == 0);    // true
 console.log(false == null);   // true
-console.log(false == null);    //false
 console.log(false == undefined);    //false
 console.log(null == undefined);   //true
 
