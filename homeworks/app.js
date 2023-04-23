@@ -45,10 +45,12 @@ console.log(`Asl holatida esa: ${value}`)
 
 
 // Berilgan sonlar ichida eng katta va eng kichik sonlar ayirmasini toping. Musbat son chiqmasin
+let max = Math.max(45, 85, 78, 56, 65, 35, 74, 12, 33)
+let min = Math.min(45, 85, 78, 56, 65, 35, 74, 12, 33)
 
+console.log(Math.abs(max-min))
 
 
 // 1-50 gacha bo'lgan sonlardan random aniqlab oladigan function yozish
-
+let randomToFifty = Math.round(Math.random() * 50)
 // Find randomNumbers
-
