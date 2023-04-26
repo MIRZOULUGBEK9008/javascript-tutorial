@@ -12,7 +12,7 @@ switch (25) {
 
   default: // hech bir shart bajarilmaganda ishlaydi, xuddi else kabi..
   console.log("Ma'lumot mavjud emas");
-}
+} 
 
 // For loop
 // for(boshlanishi; manzil(condition | true | false); step)

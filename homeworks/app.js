@@ -52,5 +52,4 @@ console.log(Math.abs(max-min))
 
 
 // 1-50 gacha bo'lgan sonlardan random aniqlab oladigan function yozish
-let randomToFifty = Math.round(Math.random() * 50)
-// Find randomNumbers
+let randomToFifty = Math.round(Math.random() * 50) + 1;

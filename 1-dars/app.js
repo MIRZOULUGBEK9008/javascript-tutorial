@@ -23,7 +23,7 @@
 //  Data types - Ma'lumot turlari
 // Ma'lumotlar 2 ga bo'linadi primitieve va non-primitieve
 
-// Primitieve
+// Primitive
 // Bigint - 9007199254740992n "n" is bigint
 // Number - sonlar va raqamlar har qanday. in range of +9007199254740992
 // String - "", '', `` ichiga yozladigan har qanday text string turiga mansub bo'ladi.
@@ -32,7 +32,7 @@
 // Symbol - objectlar bilan birga ishlatilinadi.
 // Underfined - o'zgaruvchi bor, lekin qiymat yo'q
 
-// Non primitieve
+// Non primitive
 // Object - array, function, object
 
 // typeof - ma'lumot turini aniqlaydi

@@ -28,5 +28,3 @@ console.log(name); // Beginur
 // by index[] - only positivenumbers
 // by .at(index) - can get minus value  (-1 orqadan boshlab hisoblaydi)
 // by .charAt(index) - not minus value
-
-
