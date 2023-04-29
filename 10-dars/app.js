@@ -43,3 +43,31 @@ console.log(ar == "0") // false typeof string bo'lgani uchun
 // Mana shu yerda for in hamda for of ning farqini ko'rib ketadigan bo'lsak
 for(index in ar) // index keladi
 for(value of ar) // value keladi
+
+
+
+
+
+
+// ==============================
+// Array advanced 2/3
+let num = [43, 84, 23, 12, 54, 12, 10, 8, 3, 5, 7, 11]
+console.log(num.sort()) // [10, 11, 12, 12, 23, 3, 43,  5, 54,  7, 8, 84]
+
+// Yuqoridagi kodni ko'radigan bo'lsak bizga to'g'ri tartiblab bermadi, sababi bu birinchi raqamiga qaradi va taqqosladi, keyingisini ignore qilib yubordi.
+
+// sort() to'g'ri ishlashi uchun callback kerak
+console.log(num.sort((a, b)=> a - b)); // ascending way
+// ana endi to'g'ri ishlaydi bunda JavaScript o'zining sorting algoritimidan foydalanadi ya'ni birinchida kelgan raqamni olib o'zidan boshqa hamma raqamga solishtiradi.
+
+console.log(num.sort((a, b)=> b - a)); // descending way, undan tashqari istalgan nom qo'yish mumkin
+
+
+// Rest(yig'amiz) and spread(sochamiz) operator
+// function sum(a, b, ...args) {
+//   console.log(args)
+// }
+
+// sum(2, 6, 8, 7, 5, 2, 1)
+
+// ... tipa {}dan va []dan chiqaradi

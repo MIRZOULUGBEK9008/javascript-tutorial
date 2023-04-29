@@ -58,7 +58,7 @@ delete account.major // bu bor ma'lumotni o'chiradi
 // chunki biz object nomini o'zgartirganimiz yo'q..
 account.numberStudent = 1300; // bu bor ma'lumotni o'zgartiradi
 
-// Agar bizga ma'lumotlari bir xil, lekin joylashuvi har xil bo'ladigan object kerak bo'lsa bizga structedClone() yordamga keladi..
+// Agar bizga ma'lumotlari bir xil, lekin joylashuvi har xil bo'ladigan object kerak bo'lsa bizga structuredClone() yordamga keladi..
 const ac1 = {
   id: 456,
   name: "school"

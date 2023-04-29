@@ -27,7 +27,6 @@ user = null;
 usr.sayHi();
 
 // ["id2"] === id2 === "id2" ✅
-
 // Qachonki [] ning ichida key kelsa dynamic bo'ladi , dynamic istalgancha o'zgartirishimz mumkun bo'lgan key
 
 // Distructure
@@ -47,4 +46,7 @@ console.log(newName); // Webbrain Academy
 // Agar distructure bo'layotgan ma'lumotni yana biz distructure qiladigan bo'lsak {} dan foydalanamiz.
 
 // Spread operator ...
-// spread operator prantdan ma'lumotlarni tashqariga olib chiqishda ishlatiladi 
+// spread operator scope dan ma'lumotlarni tashqariga olib chiqishda ishlatiladi
+
+
+// Object.keys() keylarni loop qilish uchun...
