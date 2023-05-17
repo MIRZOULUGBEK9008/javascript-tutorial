@@ -1,5 +1,5 @@
 // Switch | For loop
-// Switch ham xuddi if elsega o'xshash bo'lib faqat qat'iy tenglik(===) bo'lsagina ishlaydi. Jumladan if else condition qabul qilsa switch value qabul qiladi.
+// Switch ham xuddi if elsega o'xshash bo'lib faqat qat'iy tenglik(===) bo'lsagina ishlaydi. Jumladan if else condition qabul qilsa switch case value qabul qiladi.
 
 // if - =, ==, ===, >, <, <=, >=
 // switch - ===
@@ -12,7 +12,7 @@ switch (25) {
 
   default: // hech bir shart bajarilmaganda ishlaydi, xuddi else kabi..
   console.log("Ma'lumot mavjud emas");
-} 
+}
 
 // For loop
 // for(boshlanishi; manzil(condition | true | false); step)
@@ -38,7 +38,7 @@ for(i = 1; i <= 17; i++) {
   i += i; // =  i=i*2
 }
 
-// Javob: 1, 3, 7, 15  [agar isbot kerak bo'lsa => t.me/@ulugbekkhudoyberdiyev9008]
+// Javob: 1, 3, 7, 15  [agar isbot kerak bo'lsa ==> t.me/@ulugbekkhudoyberdiyev9008]
 
 // 1 dan 100 gacha bo'lgan faqat toq sonlarning ro'yhatini chiqaradi
 for(i = 1; i <= 100; i++) {

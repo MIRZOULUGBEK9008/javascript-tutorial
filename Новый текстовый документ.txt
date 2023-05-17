@@ -1,0 +1,12 @@
+"use strict";
+
+eski bug larni oldini olish uchun ishlatilinadi..
+
+
+
+HTML img tagida loading="" nomli atribut bor bor scroll qilinganda rasmlarni ko'rsatish xususiyatiga ega
+
+
+innerText vs textContent larning farqi innerText faqat biz ko'rib turgan narsalarni ko'rsatadi, textContent esa biz ko'rmayotganlarimizni ham ko'rsatadi.
+
+BigInt === 2 ** 53-1

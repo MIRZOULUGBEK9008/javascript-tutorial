@@ -20,7 +20,7 @@ const object = {
   number: 251,
   "full name": "Mirzo Ulug'bek",
   255: 000,
-  numberTwo : 222
+  numberTwo : 222,
 };
 
 let smth = "numberTwo";
@@ -94,7 +94,7 @@ const dataMirzo = {name, id } // ✔
 console.log("name" in dataMirzo); // bu yerda name nomli key dataMirzo object ning ichida mavjudmi degani
 
 
-//  Object.assign(objectName, objectName) - bu xuddi variable bilan ikkita object ni tenglab qo'yish bilan bir xil
+//  Object.assign(objectName, objectName) - bu xuddi variable kabi ikkita object ni tenglab qo'yish bilan bir xil
 
 
 

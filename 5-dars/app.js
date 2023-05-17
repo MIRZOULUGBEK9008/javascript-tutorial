@@ -52,7 +52,7 @@ logMe();
 // =======================
 // Function expression
 // Variable ga biriktiriladigan function lar function expression deb ataladi. Va buni xuddi variable ga o'xshab istalgan joyda declare qila olmaymiz.
-const sayHi = function {
+const sayHi = function () {
   console.log("Hi");
 }
 
