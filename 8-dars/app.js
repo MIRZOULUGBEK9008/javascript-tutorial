@@ -22,4 +22,3 @@ Object.is("web", "webb") // false
 
 // =================================
 // Math  JavaScriptning o'zida mavjud bo'lgan kutubxona [o'rnatish kerak emas ))]
-// Math.trunc - kasr qismini chiqarib yuborish

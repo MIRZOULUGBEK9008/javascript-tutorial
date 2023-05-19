@@ -22,9 +22,9 @@ let name = "Beginur"
 name[0] = "D" // ❌ inmutable
 console.log(name); // Beginur
 
-// by index[index] = by .at(index) = by charAt(index)
+// by index .[index] = by .at(index) = by charAt(index)
 
 // Accesing characters
-// by index[] - only positivenumbers
+// by index[] - only positive numbers
 // by .at(index) - can get minus value  (-1 orqadan boshlab hisoblaydi)
 // by .charAt(index) - not minus value

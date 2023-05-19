@@ -39,13 +39,13 @@ nameSurname("Mirzo Ulug'bek", "Xudoyberdiyev");
 // Function declaration
 
 // Bitta funksiya yaratish orqali uni istalgan joyda chaqirish mumkin ya'ni declare qilish mumkin.
-logMe();
+logMe(); // mana bu  yerda
 
-function logMe {
+function logMe() {
   console.log("Hello, JavaScript is best programming  language");
 }
 
-logMe();
+logMe(); // mana bu yerda ham
 
 
 

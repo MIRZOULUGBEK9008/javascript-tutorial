@@ -26,7 +26,7 @@ let usr = user;
 user = null;
 usr.sayHi();
 
-// ["id2"] === id2 === "id2" ✅
+// ["2"] === [2] ✅
 // Qachonki [] ning ichida key kelsa dynamic bo'ladi , dynamic istalgancha o'zgartirishimz mumkun bo'lgan key
 
 // Distructure
