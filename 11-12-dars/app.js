@@ -63,8 +63,63 @@
 // getFullYear() yozamiz, chunki getYear() depracated bo'lib ketgan ya'ni ba'zi brauzerlarda ishlamaydi
 
 
-let weeks = ["Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba"]
-let date = new Date()
-let fullDate = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+// let weeks = ["Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba"]
+// let date = new Date()
+// let fullDate = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 
-console.log();
+
+
+
+
+
+// ===============================================================================
+// ===============================================================================
+// ===============================================================================
+
+
+// JSON
+// JSON - JavaScript Object Notation
+
+// JSON nima, JSON hajmi juda kichik objectga o'xshaydi, lekin object emas ❌
+
+// JSON asosan konfiguratsiya fayllari hamda, Backend bilan oldi berdi qilingan vaqtda ishlatamiz
+
+// Nega aynan JSON, chunki barcha dasturlash tillari tushanadigan fayl kengaytmasi bu biz front ma'lumot jo'natganimizda backend PHPda yozilgan bo'lsa ham Pyhtonda yozilgan bo'lsa ham biz o'natgan ma'lumotni tushunishi kerak. Bu ma'lumot turi esa JSON dir..
+
+// JSONda ma'lumot yozayotganimizda har doim qo'shtirnoqdan foydalnamiz sababi bizda xattoki '' birtirnoq ham xatolik beradi.
+
+// Backenddan ma'lumot bizga JSON ko'rinishida keladi
+
+// let obj = {
+//   name: "Mirzo Ulug'bek",
+//   id: 4567,
+//   major: "hacker",
+//   data: {
+//    fullnName: "XUdoyberdiyev Mirzo Ulug'bek",
+//    birthDate: 02022004
+//   }
+// }
+
+// console.log(JSON.stringify(obj, ["name", "id", "data", "fullName", "birthDate"], 2));  // obj to JSON  (o'zgartirib string ko'rinishiga olib kelib qo'yadi, chunki object ko'rinishida oqiy olmaydi
+
+// JSON.stringify(value, replacer[], indentation) => JSON.stringify() parametrlari
+// 2-parametrini replacer(dependencer ) dedik, ya'ni biz backendga jo'natadigan ma'lumotlarni ["name", "major"] tarzidagi beradigan bo'lsak faqat shu ma'lumotlarni jo'natadi, biz uni filterlashimizga hojat qolmaydi
+
+// 3-parametr indentation bu number qabul qiladi, nima qiladi deydigan bo'lsak objectlar nested bo'lganda ko'rishimizga oson qilib bergan number imiz qiymaticha bo'sh joy(space) qo'yib beradi. Bu umuman olganda formatting ya'ni readableity ni oshirishga hizmat qiladi, o'qishimiz uchun qulay ko'rinishga olib keladi
+
+
+let obj = {
+  name: "Mirzo Ulug'bek",
+  id: 4567,
+  major: "hacker",
+  data: {
+    fullnName: "Xudoyberdiyev Mirzo Ulug'bek",
+    birthDate: 02022004
+  }
+}
+
+
+let toJSON = JSON.stringify(obj)
+let toObject = JSON.parse(toJSON)
+
+// JSON.parse(value) ==> JSONni objectga o'giradi parametr sifatida value ya'ni JSONni qabul qiladi...
